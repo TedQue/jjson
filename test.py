@@ -1,7 +1,9 @@
 import jjson
 
 if __name__ == "__main__":
-	print("test read number: ")
+	print(f"Welcome to jjson version {jjson.version} by Que's C++ Studio")
+
+	print("\ntest read number: ")
 	print(jjson.loads("123"))
 	print(jjson.loads("-3.14"))
 	print(jjson.loads("0x1F"))

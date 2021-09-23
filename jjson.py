@@ -1,6 +1,8 @@
 import json
 import string
 
+version = 'v0.0.1'
+
 # 扩展标准 JSON 语法
 # 1. 当字符串符合 JavaScript 标识符定义规则时可以不用引号包围以实现解析 js 对象为 Python dict 结构
 # 2. 支持 # 行首和行尾注释
