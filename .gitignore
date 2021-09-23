@@ -1,0 +1,11 @@
+*.vim
+*.log
+*.html
+*.htm
+*.xls
+*.zip
+*.asp
+__pycache__/
+downloads/
+backup/
+logs/
