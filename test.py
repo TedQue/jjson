@@ -11,7 +11,7 @@ if __name__ == "__main__":
 	print(jjson.loads("1.23E-04"))
 
 	print("\ntest read string: ")
-	print(jjson.loads("abc"))
+	print(jjson.loads("'abc'"))
 	print(jjson.loads("\"a'b\\\"c\""))
 
 	print("\ntest read javascript id: ")
